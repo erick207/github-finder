@@ -59,20 +59,26 @@ function User() {
 
           <div className='col-span-2'>
             <div className='mb-6'>
-              <h1 className='text-3xl card-title'>
+              <h1 className='text-3xl card-title text-slate-50'>
                 {name}
-                <div className='ml-2 mr-1 badge badge-success'>{type}</div>
+                <div className='ml-2 mr-1 badge badge-success opacity-100 brightness-150'>
+                  <span className='text-slate-800 brightness-100'>{type}</span>
+                </div>
                 {hireable && (
-                  <div className='mx-1 badge badge-info'>Hireable</div>
+                  <div className='mx-1 badge badge-info opacity-100 brightness-150'>
+                    <span className='text-slate-800 brightness-100'>
+                      Hireable
+                    </span>
+                  </div>
                 )}
               </h1>
-              <p>{bio}</p>
+              <p className='text-slate-50'>{bio}</p>
               <div className='mt-4 card-actions'>
                 <a
                   href={html_url}
                   target='_blank'
                   rel='noreferrer'
-                  className='btn btn-outline'
+                  className='btn btn-outline text-slate-50'
                 >
                   Visit Github Profile
                 </a>
