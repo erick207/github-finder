@@ -2,7 +2,7 @@
 
 Project developed following Brad Traversy's 'React Front To Back' Course.
 
-[Click here to go to live version: ](https://github-finder-zeta-plum.vercel.app/).
+[Click here ](https://github-finder-zeta-plum.vercel.app/) to go to live version
 
 ## Preview
 
